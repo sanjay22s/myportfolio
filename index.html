@@ -1,14 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sanjay | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of a MERN Stack Developer specializing in stunning and responsive web applications.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>hello world</h1>
-</body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
 
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Sanjay.<span>dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="greeting">Hi, I'm</p>
+                    <h1 class="name">Sanjay</h1>
+                    <h2 class="role">
+                        <span class="typing-text">MERN Stack Developer</span>
+                        <span class="cursor">|</span>
+                    </h2>
+                    <p class="bio">I build dynamic, responsive web applications and love solving complex problems. Passionate about full-stack development with a strong foundation in DSA.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-card profile-card">
+                        <div class="code-snippet">
+                            <pre><code>const profile = {
+  name: "Sanjay",
+  role: "Full Stack Dev",
+  skills: ["React", "Node.js", "MongoDB"],
+  status: "Open to Work",
+  leetcode: "100+ Problems Solved"
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2026</div>
+                        <div class="timeline-content">
+                            <h3>MERN Stack Developer Intern</h3>
+                            <h4>Sri Eshwar College of Engineering (In-House)</h4>
+                            <p>Built a responsive E-Commerce website using the MERN stack with dynamic product management and secure user authentication.</p>
+                            <div class="skills-tags">
+                                <span>ReactJS</span>
+                                <span>React Native</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>AWS EC2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="edu-card glass-card">
+                        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="edu-details">
+                            <h3>B.E. Computer Science</h3>
+                            <h4>Sri Eshwar College of Engineering</h4>
+                            <p class="edu-date">2024 - 2028</p>
+                            <p class="edu-score">CGPA: 7.5 (III Semester)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="edu-card glass-card">
+                        <div class="edu-icon"><i class="fas fa-school"></i></div>
+                        <div class="edu-details">
+                            <h3>Higher Secondary School</h3>
+                            <h4>Literacy Mission Matriculation Hr. Sec. School</h4>
+                            <p class="edu-date">2023 - 2024</p>
+                            <p class="edu-score">Score: 88%</p>
+                        </div>
+                    </div>
+
+                    <div class="edu-card glass-card">
+                        <div class="edu-icon"><i class="fas fa-book-reader"></i></div>
+                        <div class="edu-details">
+                            <h3>Secondary School</h3>
+                            <h4>Literacy Mission Matriculation Hr. Sec. School</h4>
+                            <p class="edu-date">2021 - 2022</p>
+                            <p class="edu-score">Score: 80.4%</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bootcamp glass-card mt-4">
+                    <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+                    <div class="edu-details">
+                        <h3>MERN Stack Full-Stack Web Development Bootcamp</h3>
+                        <p class="edu-date">Completed 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    
+                    <!-- Job Portal -->
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <i class="fas fa-briefcase project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="Github"><i class="fab fa-github"></i></a>
+                                <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3>Job Portal Web Application</h3>
+                        <p class="project-date">December 2025</p>
+                        <p class="project-desc">Developed a full-stack job portal enabling users to search, apply, and track job applications. Implemented secure authentication, job posting management, and REST APIs with MongoDB.</p>
+                        <div class="skills-tags">
+                            <span>ReactJS</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>JWT</span>
+                        </div>
+                    </div>
+
+                    <!-- Quiz Platform -->
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <i class="fas fa-question-circle project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="Github"><i class="fab fa-github"></i></a>
+                                <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3>Online Quiz & Exam Platform</h3>
+                        <p class="project-date">August 2025</p>
+                        <p class="project-desc">Built a platform for conducting timed tests with automatic score calculation. Implemented user login, quiz timer, question management, and result storage using RESTful APIs.</p>
+                        <div class="skills-tags">
+                            <span>ReactJS</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                
+                <div class="skills-container">
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-code"></i> Languages</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">C</span>
+                            <span class="skill-badge">C++</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">Java</span>
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-laptop"></i> Frameworks & Tech</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">NodeJS</span>
+                            <span class="skill-badge">ReactJS</span>
+                            <span class="skill-badge">Express.js</span>
+                            <span class="skill-badge">React Native</span>
+                            <span class="skill-badge">UI/UX</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-database"></i> Database & Cloud</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">MongoDB</span>
+                            <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">MySQL</span>
+                            <span class="skill-badge">AWS EC2</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-tools"></i> Tools & Core</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">Git & GitHub</span>
+                            <span class="skill-badge">Figma</span>
+                            <span class="skill-badge">DSA</span>
+                            <span class="skill-badge">OOP</span>
+                            <span class="skill-badge">DBMS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leetcode-stats glass-card mt-4 text-center">
+                    <i class="fas fa-fire leetcode-icon"></i>
+                    <h3>Problem Solving</h3>
+                    <p>Solved <strong>100+</strong> Data Structures and Algorithms problems on LeetCode, strengthening logical thinking and problem-solving skills.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sanjay. All rights reserved.</p>
+            <p class="footer-note">Built with HTML, CSS, JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
